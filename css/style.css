@@ -64,6 +64,8 @@ a {
 .header-foto {
   width: 20%;
   height: 20%;
+  min-width: 120px;
+  min-height: 120px;
   border-radius: 50%;
 }
 .header-tittle-content {
@@ -88,8 +90,12 @@ a {
   color: #bbbbbb;
 }
 @media (max-width: 1040px) {
-  .header-foto {
-    display: none;
+  /* .header-foto {
+    width: 150px;
+    height: 150px;
+  } */
+  .header-tittle-conteiner{
+    flex-direction: column;
   }
   .header-tittle {
     height: 70%;
